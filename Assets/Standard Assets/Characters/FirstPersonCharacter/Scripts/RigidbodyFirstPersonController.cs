@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -257,19 +258,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (!m_PreviouslyGrounded && m_IsGrounded && m_Jumping)
             {
                 m_Jumping = false;
-            }
-        }
-
-        private class CrossPlatformInputManager
-        {
-            internal static float GetAxis(string v)
-            {
-                throw new NotImplementedException();
-            }
-
-            internal static bool GetButtonDown(string v)
-            {
-                throw new NotImplementedException();
             }
         }
     }

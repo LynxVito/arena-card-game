@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
+using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Characters.FirstPerson
@@ -250,63 +252,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 return;
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
-        }
-
-        private class LerpControlledBob
-        {
-            internal string DoBobCycle()
-            {
-                throw new NotImplementedException();
-            }
-
-            internal float Offset()
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        private class CurveControlledBob
-        {
-            internal Vector3 DoHeadBob(float v)
-            {
-                throw new NotImplementedException();
-            }
-
-            internal void Setup(Camera m_Camera, float m_StepInterval)
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        private class CrossPlatformInputManager
-        {
-            internal static float GetAxis(string v)
-            {
-                throw new NotImplementedException();
-            }
-
-            internal static bool GetButtonDown(string v)
-            {
-                throw new NotImplementedException();
-            }
-        }
-    }
-
-    internal class FOVKick
-    {
-        internal string FOVKickDown()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal string FOVKickUp()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void Setup(Camera m_Camera)
-        {
-            throw new NotImplementedException();
         }
     }
 }

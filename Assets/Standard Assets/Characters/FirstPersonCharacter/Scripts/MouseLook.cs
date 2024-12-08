@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -68,12 +69,5 @@ namespace UnityStandardAssets.Characters.FirstPerson
             return q;
         }
 
-        private class CrossPlatformInputManager
-        {
-            internal static float GetAxis(string v)
-            {
-                throw new NotImplementedException();
-            }
-        }
     }
 }

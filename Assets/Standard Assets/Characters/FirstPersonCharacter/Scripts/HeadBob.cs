@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityStandardAssets.Utility;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -49,32 +50,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             m_PreviouslyGrounded = rigidbodyFirstPersonController.Grounded;
           //  m_CameraRefocus.SetFocusPoint();
-        }
-
-        public class CurveControlledBob
-        {
-            internal Vector3 DoHeadBob(float v)
-            {
-                throw new NotImplementedException();
-            }
-
-            internal void Setup(Camera camera, float strideInterval)
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public class LerpControlledBob
-        {
-            internal string DoBobCycle()
-            {
-                throw new NotImplementedException();
-            }
-
-            internal float Offset()
-            {
-                throw new NotImplementedException();
-            }
         }
     }
 }
