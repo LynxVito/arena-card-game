@@ -19,10 +19,10 @@ public class DropdownOnlineOffline : MonoBehaviour
         RectTransform drop = GetComponent<RectTransform> ();
 
         if(pressedPlay == true) {
-            drop.Translate(0.0f, -890.0f, 0.0f);
+            drop.Translate(0.0f, -420.0f, 0.0f);
         }
         else {
-            drop.Translate(0.0f, 890.0f, 0.0f);
+            drop.Translate(0.0f, 420.0f, 0.0f);
         }
     }
 }

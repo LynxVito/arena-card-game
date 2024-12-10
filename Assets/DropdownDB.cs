@@ -20,10 +20,10 @@ public class Dropdown : MonoBehaviour
         RectTransform drop = GetComponent<RectTransform> ();
 
         if(pressedPlay == true) {
-            drop.Translate(0.0f, -200.0f, 0.0f);
+            drop.Translate(0.0f, -90.0f, 0.0f);
         }
         else {
-            drop.Translate(0.0f, 200.0f, 0.0f);
+            drop.Translate(0.0f, 90.0f, 0.0f);
         }
     }
 }
