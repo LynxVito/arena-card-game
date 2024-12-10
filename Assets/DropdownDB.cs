@@ -16,12 +16,14 @@ public class Dropdown : MonoBehaviour
         }
     }
 
-    // public void PlayDropDown() {
-        
-    //     Transform t = gameObject.transform;
+    public void PlayDropDown() {
+        RectTransform drop = GetComponent<RectTransform> ();
 
-    //     if (pressedPlay == true) {
-    //         t.Translate (0.0f, 500.0f, 0.0f);
-    //     }
-    // }
+        if(pressedPlay == true) {
+            drop.Translate(0.0f, -200.0f, 0.0f);
+        }
+        else {
+            drop.Translate(0.0f, 200.0f, 0.0f);
+        }
+    }
 }
