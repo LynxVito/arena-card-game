@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/The_Viking_Village.unity
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 2961b05c129ce434da848ab9a40115fb
+  - enabled: 1
+    path: Assets/Scenes/Card game.unity
+    guid: 90b90c39ffe19de458656c89219a9af7
+  - enabled: 1
+    path: Assets/Scenes/Arena scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Card game intro.unity
+    guid: 952c1842b4954a5479d5d677b20ff12b
   m_configObjects: {}

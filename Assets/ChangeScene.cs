@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SwitchScenes : MonoBehaviour
+public class ChangeScene : MonoBehaviour
 {
-    public void NextScene() {
-        SceneManager.LoadScene("Card game intro");
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene("Card game");
     }
+
 }
