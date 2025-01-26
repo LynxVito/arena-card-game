@@ -11,8 +11,4 @@ public class ShowPlaceButton : MonoBehaviour
     {
         setButtonActive.SetActive(false);
     }
-
-    public void CheckIfActive() {
-
-    }
 }

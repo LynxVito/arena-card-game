@@ -6,6 +6,14 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
+
+            /**
+* This script is based upon an example from a YouTube video by the following creator
+*
+* Author: Dapper Dino
+* Location: https://www.youtube.com/watch?v=ZYeXmze5gxg
+* Accessed: 21/Jan/2025
+*/
     public float health;
     public float maxHealth;
     public GameObject healthBarUI;
