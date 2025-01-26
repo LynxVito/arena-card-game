@@ -6,8 +6,13 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
 
-    public void NextScene()
+    void Start() {
+        StartCoroutine(NextScene());
+    }
+
+    IEnumerator NextScene()
     {
+        yield return new WaitForSeconds(16);
         SceneManager.LoadScene("Card game");
     }
 
